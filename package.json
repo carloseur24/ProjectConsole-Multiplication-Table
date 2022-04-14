@@ -1,0 +1,16 @@
+{
+  "name": "03_node_bases",
+  "version": "0.0.1",
+  "description": "This is a simple app to create a file.txt with a multiplication table like content",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "base5": "nodemon app.js --base=5"
+  },
+  "author": "Klinker",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.4.1"
+  }
+}
